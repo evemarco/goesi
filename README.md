@@ -4,6 +4,10 @@ An OpenAPI for EVE Online ESI API
 
 ## Overview
 A module to allow access to CCP's EVE Online ESI API.
+This module is a fork of antihax version [https://github.com/antihax/goesi](https://github.com/antihax/goesi),
+modified to compile on Windows system,
+and float32 replaced by float64, to gain currency precision.
+
 This module offers:
 * Versioned Endpoints
 * OAuth2 authentication to login.eveonline.com
@@ -14,7 +18,7 @@ This module offers:
 
 ## Installation
 ```
-    go get github.com/antihax/goesi
+    go get github.com/evemarco/goesi
 ```
 
 ## New Client
@@ -178,6 +182,7 @@ Generator is here: https://github.com/antihax/swagger-esi-goclient
 
 ## Author
   antihax on #devfleet slack
+  corrected by evemarco
 
 ## Credits
 https://github.com/go-resty/resty (MIT license) Copyright Â© 2015-2016 Jeevanandam M (jeeva@myjeeva.com)
