@@ -46,6 +46,8 @@ import (
 	"fmt"
 
 	"github.com/mailru/easyjson"
+	"github.com/mailru/easyjson/jlexer"
+	"github.com/mailru/easyjson/jwriter"
 )
 
 // Linger please
