@@ -252,6 +252,7 @@ Generator is here: https://github.com/antihax/swagger-esi-goclient
 ## Author
 
   antihax on #devfleet slack
+
 	corrected by evemarco
 
 ## Credits
