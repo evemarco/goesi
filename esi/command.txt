@@ -1,0 +1,6 @@
+gocat -k api*.go >esi_api.go
+gocat -k model*.go >esi_model.go
+sed -i 's/float32/float64/g' esi_model.go
+sed -i 's/Float32/Float64/g' esi_model.go
+sed -i 's/float32/float64/g' esi_api.go
+sed -i 's/Float32/Float64/g' esi_api.go
