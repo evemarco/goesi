@@ -251,9 +251,9 @@ Generator is here: https://github.com/antihax/swagger-esi-goclient
 
 ## Author
 
-  antihax on #devfleet slack
+antihax on #devfleet slack
 
-	corrected by evemarco
+corrected by evemarco
 
 ## Credits
 
